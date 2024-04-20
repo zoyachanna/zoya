@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anton&family=Courgette&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Great+Vibes&family=Inter:wght@100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Narrow:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #ecf3fa;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --primary_color: #FF5588;
+}
+
+.container {
+    display: flex;
+    padding: 70px 200px;
+}
+
+.profile-img {
+    border-radius: 20px;
+    width: 220px;
+    height: 200px;
+}
+
+.icons {
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+
+}
+
+.profile-data {
+    width: 12%;
+    margin-top: 60px;
+
+}
+
+.profile-data button {
+    width: 150px;
+    margin: 10px 30px;
+    border-radius: 4px;
+    border: 1px solid #333333;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.profile-details {
+    margin-left: 130px;
+}
+
+.profile-details .intro h3 {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.profile-details .intro h1 {
+    margin: 30px 0px;
+    width: 400px;
+    height: 150px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.work-done {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-right: 130px;
+}
+
+.work-done .projects {
+    text-align: center;
+}
+
+.work-done .projects h1 {
+    color: var(--primary_color);
+    font-weight: 400;
+}
+
+.work-done .projects span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.about-me {
+    padding-top: 80px;
+}
+
+.about-me span {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.about-me h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.about-me p {
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+/* Education */
+
+.Education {
+    padding-top: 80px;
+}
+
+.Education .career {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Education h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 350;
+}
+
+.studies {
+    padding-top: 20px;
+}
+
+.studies span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.studies h4 {
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Services-detail {
+    padding-top: 80px;
+}
+
+.Services-detail .service {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Services-detail h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 350;
+}
+
+.coding {
+    display: flex;
+    padding-top: 20px;
+}
+
+.project {
+    border: 1px solid #333333;
+    padding: 12px;
+    margin-right: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-1 {
+    border: 1px solid var(--primary_color);
+    padding: 12px;
+    margin-right: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.my-skills {
+    padding-top: 80px;
+}
+
+.my-skills span {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.my-skills h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 350;
+}
+
+.icons-code {
+    padding-top: 40px;
+    font-size: 40px;
+
+}
+
+.vs-icons {
+    margin-right: 70px;
+}
+
+.portfolio-projects {
+    padding-top: 80px;
+}
+
+.portfolio-projects span {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.portfolio-projects h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 350;
+}
+
+.project-figma {
+    padding-top: 20px;
+}
+
+.figma {
+    width: 73%;
+    border-radius: 30px;
+    height: 50vh;
+}
+
+.figma-projects img {
+    padding: 10px;
+    width: 35%;
+    border-radius: 30px;
+    height: 30vh;
+
+}
+
+.clients {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.clients .Testimonial {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.clients h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 350;
+}
+
+
+.Client-details {
+    border: 1px solid #333333;
+    padding: 50px 120px;
+    margin-right: 100px;
+    border-radius: 30px;
+    width: 40%;
+
+
+}
+
+.span {
+    width: 227px;
+    height: 67px;
+    top: 97px;
+    left: 100px;
+
+}
+
+.span h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+
+}
+
+.Client-details img {
+    padding: 30px;
+    width: 60px;
+    height: 70px;
+    padding-top: 15px;
+}
+
+.Client-para {
+    padding-left: 30px;
+}
+
+.work-brands {
+    padding-top: 90px;
+
+}
+
+.work-brands span {
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.work-brands h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 350;
+}
+
+.worldwide-img img {
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    margin: 0px 90px;
+    margin-left: 10px;
+}
+
+/* contact */
+
+.Contact {
+    padding-top: 80px;
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 450;
+    margin: 40px 0px;
+}
+
+.form-input {
+    margin: 20px 0px;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.form-input input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #c7c1c3;
+    width: 400px;
+    padding: 10px;
+
+}
+
+.form-textarea {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.form-textarea textarea:focus{
+    outline: none;
+}
+
+.form-textarea textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #c7c1c3;
+    width: 400px;
+
+}
+
+.form-input input:focus {
+    outline: none;
+}
+
+.hire-btn {
+    width: 150px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    padding: 10px 40px;
+    cursor: pointer;
+}
